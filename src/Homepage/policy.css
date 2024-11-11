@@ -1,0 +1,89 @@
+/* TermsAndConditions.css */
+
+/* Basic reset and container styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+#terms-and-conditions {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.policy-h1, .policy-h2 {
+    color: #0056b3;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.policy-h1 {
+    font-size: 2em;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.policy-h2 {
+    font-size: 1.5em;
+}
+
+.policy-p {
+    font-size: 1em;
+    color: #555;
+    margin-top: 10px;
+    line-height: 1.8;
+}
+
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p.policy-p strong {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Additional padding for sections */
+#terms-and-conditions div {
+    margin-bottom: 20px;
+}
+
+/* Styling for the contact section */
+#terms-and-conditions p:last-child {
+    margin-top: 5px;
+    color: #333;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+    #terms-and-conditions {
+        padding: 15px;
+    }
+
+    .policy-h1 {
+        font-size: 1.8em;
+    }
+
+    .policy-h2 {
+        font-size: 1.2em;
+    }
+
+    .p-policy {
+        font-size: 0.9em;
+    }
+}

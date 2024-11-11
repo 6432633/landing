@@ -1,0 +1,34 @@
+.footer {
+    display: flex;                 
+    justify-content: space-around; 
+    align-items: flex-start;      
+    padding: 20px;                 
+    width: 100%; 
+    background:#42006C               
+}
+
+.f-column {
+    flex: 1;                       
+    max-width: 200px;             
+    padding: 10px;                 
+    text-align: center;            
+}
+
+.f-column ul {
+    list-style: none;             
+    padding: 0;
+}
+
+.f-column ul li {
+    margin-bottom: 10px;   
+    color: white; 
+    text-align: left ;       
+}
+
+.f-column ul li a {
+    color: white;                   
+}
+
+.f-column ul li a:hover {
+    text-decoration: underline;   
+}
