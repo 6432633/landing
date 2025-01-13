@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/landing/static/css/main.27923c5f.css",
+    "main.js": "/landing/static/js/main.8f8053d8.js",
+    "static/js/453.7ee4257d.chunk.js": "/landing/static/js/453.7ee4257d.chunk.js",
+    "static/media/client_1.png": "/landing/static/media/client_1.2d2177ff1a48c12b1adb.png",
+    "static/media/client_2.png": "/landing/static/media/client_2.5a70817292182a6b82df.png",
+    "static/media/client_3.png": "/landing/static/media/client_3.6b220d9cf1a8458f5f12.png",
+    "static/media/senior.webp": "/landing/static/media/senior.4fb462cdc16550e34896.webp",
+    "static/media/middle.webp": "/landing/static/media/middle.ed58ecd3c7f97a7050ee.webp",
+    "static/media/junior.webp": "/landing/static/media/junior.ff642c0fb04957b2927f.webp",
+    "static/media/novice.webp": "/landing/static/media/novice.08fce33cce9fe6020bab.webp",
+    "static/media/paynet.svg": "/landing/static/media/paynet.4d13b09d83f7a4243b7d99890285cad6.svg",
+    "static/media/logo.svg": "/landing/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/visa.svg": "/landing/static/media/visa.5c002459c8ad1ffbb15cb95b1c4a83e7.svg",
+    "static/media/diploma.svg": "/landing/static/media/diploma.261ffcbf0abb845813b6cadf840656d7.svg",
+    "static/media/medal_prize_star.svg": "/landing/static/media/medal_prize_star.e20d30f30b10f5561473598d63411a03.svg",
+    "static/media/arrow.webp": "/landing/static/media/arrow.b12d7e5e7a665b8280e1.webp",
+    "static/media/complete_mark.svg": "/landing/static/media/complete_mark.1ce3717278c7b61e5d726e95d6dc8f98.svg",
+    "static/media/mastercard.svg": "/landing/static/media/mastercard.7218dd22aee1ce9a631be2b5d0c0452f.svg",
+    "static/media/teacher.svg": "/landing/static/media/teacher.edc465bdd0de1eacf1fe94e9cc0053a1.svg",
+    "index.html": "/landing/index.html",
+    "static/media/pilon_4.webp": "/landing/static/media/pilon_4.bfc926178a86a93adc5e.webp",
+    "static/media/pilon_3.webp": "/landing/static/media/pilon_3.5e0a02a1f2aacaafd953.webp",
+    "static/media/pilon_2.webp": "/landing/static/media/pilon_2.6380ed79ad5a9636bb80.webp",
+    "static/media/pilon_1.webp": "/landing/static/media/pilon_1.9fe2d1dca538b48556b6.webp",
+    "main.27923c5f.css.map": "/landing/static/css/main.27923c5f.css.map",
+    "main.8f8053d8.js.map": "/landing/static/js/main.8f8053d8.js.map",
+    "453.7ee4257d.chunk.js.map": "/landing/static/js/453.7ee4257d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27923c5f.css",
+    "static/js/main.8f8053d8.js"
+  ]
+}
