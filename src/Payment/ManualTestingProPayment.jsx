@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Header from '../Homepage/Header'
 import Footer from '../Footer/Footer'
 import { useNavigate } from "react-router-dom";
-const JavaBasicsPayment = () => {
+const ManualTestingProPayment = () => {
     const [formData, setFormData] = useState({
         cardNumber: '',
         fullName: '',
@@ -34,7 +34,7 @@ const JavaBasicsPayment = () => {
 
             if (response.ok) {
                 console.log('Payment submitted successfully');
-                navigate('/dashboard')
+                navigate('/')
             } else {
                 console.error('Failed to submit payment');
             }
@@ -52,7 +52,7 @@ const JavaBasicsPayment = () => {
             <Header/>
             <div>
                 <div className="header">
-                    <div className="text">Enroll To Java Fundamentals Course</div>
+                    <div className="text">Enroll To Manual Testing Pro</div>
                     <div className="underline"></div>
                 </div>
                 <div className="inputs">
@@ -62,7 +62,7 @@ const JavaBasicsPayment = () => {
                             name="course"
                             style={{ paddingLeft: '10px' }}
                             readOnly
-                            value="SoftwareTesting" // Display the course name
+                            value="Software Testing" // Display the course name
                         />
                     </div>
                     <div className="input">
@@ -78,7 +78,7 @@ const JavaBasicsPayment = () => {
                         <input type="text" name="cvv" placeholder="CVV" style={{ paddingLeft: '10px' }} value={formData.cvv} onChange={handleInputChange} />
                     </div>
                     <div className="input">
-                        <input type="text" name="price" style={{ paddingLeft: '10px' }} value={`999 $`} readOnly />
+                        <input type="text" name="price" style={{ paddingLeft: '10px' }} value={`499 $`} readOnly />
                     </div>
                     <div className="checkbox">
                         <input
@@ -89,7 +89,7 @@ const JavaBasicsPayment = () => {
                             onChange={handleCheckboxChange}
                         />
                         <label htmlFor="termsandconditions" style={{ paddingLeft: '5px' }}>
-                            I accept the <a href="/terms-and-conditions" target="_blank" rel="noopener noreferrer">Terms and Conditions</a> and <a href="/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+                            I accept the <a href="#/terms-and-conditions" target="_blank" rel="noopener noreferrer">Terms and Conditions</a> and <a href="#/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
                         </label>
                     </div>
                     <div className="submit-container">
@@ -103,4 +103,4 @@ const JavaBasicsPayment = () => {
         </div>
     )
 }
-export default JavaBasicsPayment
+export default ManualTestingProPayment

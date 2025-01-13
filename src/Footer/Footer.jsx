@@ -16,8 +16,8 @@ const Footer = () => {
                     <ul>
                         <li>Codecraft Academy © 2024</li>
                         <li>All rights are protected</li>
-                        <li><a href="./privacy-policy" target="_blank">Privacy Policy</a></li>
-                        <li><a href='./terms-and-conditions' target="_blank">Terms And Conditions</a></li>
+                        <li><a href="#/privacy-policy" target="_blank">Privacy Policy</a></li>
+                        <li><a href='#/terms-and-conditions' target="_blank">Terms And Conditions</a></li>
                     </ul>
                 </div>
                 <div className="f-column">

@@ -8,8 +8,9 @@ const Header = () => {
             </svg>
             <nav>
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/contact-us">Contact Us</a></li>
+                <li><a href="#/">Home</a></li>
+                <li><a href="#/contact-us">Contact Us</a></li>
+                <li><a href="#/enroll-now">Enroll Now</a></li>
             </ul>
         </nav>
         <svg className="zigzag-svg" viewBox="0 0 1000 10">

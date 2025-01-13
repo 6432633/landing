@@ -34,7 +34,7 @@ const ManualTestingPayment = () => {
 
             if (response.ok) {
                 console.log('Payment submitted successfully');
-                navigate('/dashboard')
+                navigate('/')
             } else {
                 console.error('Failed to submit payment');
             }
@@ -90,7 +90,7 @@ const ManualTestingPayment = () => {
                             onChange={handleCheckboxChange}
                         />
                         <label htmlFor="termsandconditions" style={{ paddingLeft: '5px' }}>
-                            I accept the <a href="/terms-and-conditions" target="_blank" rel="noopener noreferrer">Terms and Conditions</a> and <a href="/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+                            I accept the <a href="#/terms-and-conditions" target="_blank" rel="noopener noreferrer">Terms and Conditions</a> and <a href="#/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
                         </label>
                     </div>
                     <div className="submit-container">

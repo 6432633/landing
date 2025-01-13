@@ -1,0 +1,85 @@
+
+
+/* Header styles */
+.t-header-1,
+.t-header-2,
+.t-header-3 {
+    line-height: 1.2;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    border: 5px solid #ffffff;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: bold;
+    position: relative;
+    max-width: 45px;
+}
+
+.t-header-1 {
+    background-color: #834496;
+}
+
+.t-header-2 {
+    background-color: #f4a424;
+}
+
+.t-header-3 {
+    background-color: #e65c7b;
+}
+
+/* Cell styles */
+
+
+/* Enroll button styling */
+a.enroll {
+    color: black;
+    /* Black text color */
+    text-decoration: none;
+    /* Removes the underline */
+    font-size: 18px;
+    /* Font size */
+    font-family: Arial, sans-serif;
+    /* Font style */
+    padding: 8px 16px;
+    /* Padding for clickable area */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    /* Smooth transition for hover effects */
+}
+
+a.enroll:hover {
+    background-color: #555;
+    /* Slightly lighter background on hover */
+    color: #f1f1f1;
+    /* Lighter text color on hover */
+    border-radius: 5px;
+    /* Rounded corners for the hover effect */
+}
+
+a.active {
+    background-color: #4CAF50;
+    /* Green background for active page */
+    color: white;
+    border-radius: 5px;
+}
+table{
+    table-layout: fixed;
+    width: 100%;
+}
+.compare-courses-wrapper {
+    overflow-x: auto;
+}
+.mark {
+    height: 37px;
+    width: 37px;
+}
+th {
+    max-width: 150px;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+}
+.cell {
+    padding: 5px;
+}
