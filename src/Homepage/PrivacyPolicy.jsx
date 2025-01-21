@@ -10,7 +10,7 @@ const PrivacyPolicy = () => {
                 <h1 className="policy-h1">Privacy Policy</h1>
                 <p className="p-policy"><strong>1. Introduction</strong><br />
                     &#8205;<br />
-                    &#8205;Thank you for using Codecraft Academy services!This Privacy Policy constitutes an integral part of the agreement between you (hereinafter - the &quot;Customer&quot;) and Codecraft Academy as an owner of the website https://www.codecraft.academy/, other Codecraft Academy services and other related products (hereinafter - the &ldquo;Service&rdquo;). All terms and definitions used in this Privacy Policy in the meaning defined by Terms and Conditions and applicable legislation.</p>
+                    &#8205;Thank you for using Codecraft Academy services!This Privacy Policy constitutes an integral part of the agreement between you (hereinafter - the &quot;Customer&quot;) and Codecraft Academy as an owner of the website https://www.code-craft.academy/, other Codecraft Academy services and other related products (hereinafter - the &ldquo;Service&rdquo;). All terms and definitions used in this Privacy Policy in the meaning defined by Terms and Conditions and applicable legislation.</p>
 
                 <p className="p-policy">This Privacy Policy describes our privacy practices with regard to your Personal Data. Personal Data includes any data about you that specifically identifies you as an individual and information about your activities, such as information about your use of Service, when directly linked to personally identifiable information.</p>
 

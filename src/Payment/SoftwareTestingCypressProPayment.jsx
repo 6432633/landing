@@ -4,7 +4,7 @@ import Footer from '../Footer/Footer'
 import { useNavigate } from "react-router-dom";
 import mastercard_logo from '../Homepage/Assets/mastercard.svg'
 import visa_logo from '../Homepage/Assets/visa.svg'
-const ManualTestingPayment = () => {
+const SoftwareTestingCypressPayment = () => {
     const [formData, setFormData] = useState({
         cardNumber: '',
         fullName: '',
@@ -36,7 +36,7 @@ const ManualTestingPayment = () => {
 
             if (response.ok) {
                 console.log('Payment submitted successfully');
-                navigate('/')
+                navigate('/dashboard')
             } else {
                 console.error('Failed to submit payment');
             }
@@ -49,13 +49,12 @@ const ManualTestingPayment = () => {
     const handleCheckboxChange = () => {
         setIsChecked((prevState) => !prevState);
     };
-    return(
-        
+    return (
         <div>
-            <Header/>
+            <Header />
             <div>
                 <div className="header">
-                    <div className="text">Enroll To Manual Testing Course</div>
+                    <div className="text">Enroll To Software Testing(Cypress) Course</div>
                     <div className="underline"></div>
                     <div style={{display:"flex", flexDirection:"row", gap:"10px"}}>
                         <p>We accept: </p>
@@ -70,7 +69,7 @@ const ManualTestingPayment = () => {
                             name="course"
                             style={{ paddingLeft: '10px' }}
                             readOnly
-                            value="Manual Testing" // Display the course name
+                            value="Software Testing(Cypress)"
                         />
                     </div>
                     <div className="input">
@@ -107,8 +106,8 @@ const ManualTestingPayment = () => {
                     </div>
                 </div>
             </div>
-            <Footer/>
+            <Footer />
         </div>
     )
 }
-export default ManualTestingPayment
+export default SoftwareTestingCypressPayment

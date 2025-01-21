@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Header from '../Homepage/Header'
 import Footer from '../Footer/Footer'
 import { useNavigate } from "react-router-dom";
+import mastercard_logo from '../Homepage/Assets/mastercard.svg'
+import visa_logo from '../Homepage/Assets/visa.svg'
 const ManualTestingProPayment = () => {
     const [formData, setFormData] = useState({
         cardNumber: '',
@@ -47,13 +49,18 @@ const ManualTestingProPayment = () => {
     const handleCheckboxChange = () => {
         setIsChecked((prevState) => !prevState);
     };
-    return(
+    return (
         <div>
-            <Header/>
+            <Header />
             <div>
                 <div className="header">
                     <div className="text">Enroll To Manual Testing Pro</div>
                     <div className="underline"></div>
+                    <div style={{display:"flex", flexDirection:"row", gap:"10px"}}>
+                        <p>We accept: </p>
+                        <img src={mastercard_logo} alt="" />
+                        <img src={visa_logo} alt="" />
+                    </div>
                 </div>
                 <div className="inputs">
                     <div className="input">
@@ -62,7 +69,7 @@ const ManualTestingProPayment = () => {
                             name="course"
                             style={{ paddingLeft: '10px' }}
                             readOnly
-                            value="Software Testing" // Display the course name
+                            value="Manual Testing Pro" // Display the course name
                         />
                     </div>
                     <div className="input">
@@ -99,7 +106,7 @@ const ManualTestingProPayment = () => {
                     </div>
                 </div>
             </div>
-            <Footer/>
+            <Footer />
         </div>
     )
 }

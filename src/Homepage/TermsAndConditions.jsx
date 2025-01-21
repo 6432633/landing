@@ -27,7 +27,7 @@ const TermsAndConditions = () => {
                 <h2 className="policy-h2" id="introduction">1. Introduction</h2>
                 <p>1.1 These Terms and Conditions (hereinafter may be referred to as: “Terms of use”, “Terms of Service”, “Terms”, “Agreement”) govern your usage of our Codecraft Academy website, software product, and/or other related products, as specified in these Terms and Conditions, unless otherwise provided.</p>
                 <p>1.2 As used throughout these Terms and Conditions, in their current form, and as may be amended by Codecraft Academy, these Terms represent a binding agreement between you, as a Customer (defined below), and Codecraft Academy, a Moldovan company with registration number 559139-2148, registered at A.Doga 32/2 office 5 Chisinau, Republic of Moldova. By purchasing our courses or registering on the Website, you agree to abide by these Terms and Conditions and to use the Service in accordance with these Terms.</p>
-                <p>1.3 We offer online services through our website <a href="https://codecraft.academy/">https://codecraft.academy/</a> (the “Website”) and social media accounts (the “Service”). The Service is provided by Codecraft Academy and includes educational courses that you may purchase on the Website.</p>
+                <p>1.3 We offer online services through our website <a href="https://code-craft.academy/">https://codec-raft.academy/</a> (the “Website”) and social media accounts (the “Service”). The Service is provided by Codecraft Academy and includes educational courses that you may purchase on the Website.</p>
 
                 <h2 className="policy-h2" id="definitions">2. Definitions</h2>
                 <p>2.1 As used in this Agreement, the following terms shall have the following meanings:</p>
@@ -79,7 +79,7 @@ const TermsAndConditions = () => {
                 <p>11.2 If any provision of this Agreement is found to be invalid under any applicable law, such provisions shall be deleted without affecting the remaining provisions herein.</p>
 
                 <h2 className="policy-h2" id="contact-us">12. Contact Us</h2>
-                <p>If you have any questions about these Terms, please contact us at <a href="mailto:support@Codecraft.academy">support@Codecraft.academy</a>.</p>
+                <p>If you have any questions about these Terms, please contact us at <a href="mailto:adrianrascovschi@gmail.com">adrianrascovschi@gmail.com</a>.</p>
             </div>
             <Footer />
         </div>

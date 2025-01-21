@@ -1,14 +1,19 @@
 .download-container{
     margin: auto;
     border: 4px solid blueviolet;
-    width: 50%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    width: 60%;
     background: white;
     text-align: center;
+    position: relative; 
+    margin-top: 150px;
+    margin-bottom: 150px;
+    height: 400px;
 }
 .download-subcontainer {
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    position: relative;
+    gap: 100px;
+    margin-top: 75px;
+    margin-left: 10px;
 }

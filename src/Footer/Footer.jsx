@@ -14,7 +14,7 @@ const Footer = () => {
                 <div className="f-column">
 
                     <ul>
-                        <li>Codecraft Academy © 2024</li>
+                        <li>Codecraft Academy ©2025</li>
                         <li>All rights are protected</li>
                         <li><a href="#/privacy-policy" target="_blank">Privacy Policy</a></li>
                         <li><a href='#/terms-and-conditions' target="_blank">Terms And Conditions</a></li>
@@ -23,8 +23,11 @@ const Footer = () => {
                 <div className="f-column">
                     <ul>
                         <li>Manual Testing</li>
-                        <li>Software Testing</li>
-                        <li>Java Basics</li>
+                        <li>Manual Testing Pro</li>
+                        <li>Software Testing(Java)</li>
+                        <li>Software Testing(Java) Pro</li>
+                        <li>Software Testing(Cypress)</li>
+                        <li>Software Testing(Cypress) Pro</li>
                     </ul>
                 </div>
                 <div className="f-column">
@@ -32,7 +35,6 @@ const Footer = () => {
                         <li>We Accept:</li>
                         <li><img src={mastercard_logo} alt="" /></li>
                         <li><img src={visa_logo} alt="" /></li>
-                        <li><img src={paynet_logo} alt="" /></li>
                     </ul>
                 </div>
             </div>

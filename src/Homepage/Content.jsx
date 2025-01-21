@@ -49,7 +49,7 @@ const Content = () => {
         },
         {
             question: "Do you offer technical support?",
-            answer: "Yes, we provide 24/7 technical support through our online platform.",
+            answer: "Yes, we provide 24/7 support through e-mail and WhatsApp. Please see Contact Us page.",
         },
     ];
     return (
@@ -76,8 +76,8 @@ const Content = () => {
                         <div className="sub-column">
                             <img src={diploma} alt="" />
                             <div className="text-container">
-                                <div>On Market</div>
-                                <div>More than 5 years</div>
+                                <div>Duration</div>
+                                <div>3-6 months</div>
                             </div>
                         </div>
                     </div>
@@ -85,8 +85,8 @@ const Content = () => {
                         <div className="sub-column">
                             <img src={medal_prize_star} alt="" />
                             <div className="text-container">
-                                <div>200+</div>
-                                <div>Alumnies per year</div>
+                                <div>Interview readiness</div>
+                                <div>CV Assistance</div>
                             </div>
                         </div>
                     </div>
@@ -94,8 +94,8 @@ const Content = () => {
                         <div className="sub-column">
                             <img src={teacher} alt="" />
                             <div className="text-container">
-                                <div>4.9 / 5 ⭐️⭐️⭐️⭐️⭐️</div>
-                                <div>Most students come on personal recommendation</div>
+                                <div>Individual Learning Plan</div>
+                                <div>Mentorship</div>
                             </div>
                         </div>
                     </div>
@@ -312,7 +312,7 @@ const Content = () => {
                             </ul>
                             <div style={{ marginTop: '25px', fontStyle: 'bold', fontSize: '25px' }}><strong>Price: 499$</strong></div>
                             <div style={{ display: "flex", flexDirection: 'row' }}>
-                                <div className="submit-container"><div className="submit"><a href="#/manual-testing-payment" style={{ color: 'white' }}>Enroll Now</a></div></div>
+                                <div className="submit-container"><div className="submit"><a href="#/mtpp" style={{ color: 'white' }}>Enroll Now</a></div></div>
                             </div>
                         </div>
                     </div>
@@ -340,7 +340,7 @@ const Content = () => {
                             </ul>
                             <div style={{ marginTop: '25px', fontStyle: 'bold', fontSize: '25px' }}><strong>Price: 999$</strong></div>
                             <div style={{ display: "flex", flexDirection: 'row' }}>
-                                <div className="submit-container"><div className="submit"><a href="#/software-testing-payment" style={{ color: 'white' }}>Enroll Now</a></div></div>
+                                <div className="submit-container"><div className="submit"><a href="#/stjpp" style={{ color: 'white' }}>Enroll Now</a></div></div>
                             </div>
                         </div>
                     </div>
@@ -367,7 +367,7 @@ const Content = () => {
                             </ul>
                             <div style={{ marginTop: '25px', fontStyle: 'bold', fontSize: '25px' }}><strong>Price: 999$</strong></div>
                             <div style={{ display: "flex", flexDirection: 'row' }}>
-                                <div className="submit-container"><div className="submit"><a href="#/cypress-pro-payment" style={{ color: 'white' }}>Enroll Now</a></div></div>
+                                <div className="submit-container"><div className="submit"><a href="#/stcpp" style={{ color: 'white' }}>Enroll Now</a></div></div>
                             </div>
 
                         </div>
@@ -388,7 +388,7 @@ const Content = () => {
                             </ul>
                             <div style={{ marginTop: '25px', fontStyle: 'bold', fontSize: '25px' }}><strong>Price: 50$</strong></div>
                             <div style={{ display: "flex", flexDirection: 'row' }}>
-                                <div className="submit-container"><div className="submit"><a href="#/manual-testing-payment" style={{ color: 'white' }}>Enroll Now</a></div></div>
+                                <div className="submit-container"><div className="submit"><a href="#/mtp" style={{ color: 'white' }}>Enroll Now</a></div></div>
                             </div>
                         </div>
                     </div>
@@ -408,7 +408,7 @@ const Content = () => {
                             </ul>
                             <div style={{ marginTop: '25px', fontStyle: 'bold', fontSize: '25px' }}><strong>Price: 50$</strong></div>
                             <div style={{ display: "flex", flexDirection: 'row' }}>
-                                <div className="submit-container"><div className="submit"><a href="#/software-testing-payment" style={{ color: 'white' }}>Enroll Now</a></div></div>
+                                <div className="submit-container"><div className="submit"><a href="#/stjp" style={{ color: 'white' }}>Enroll Now</a></div></div>
                             </div>
                         </div>
                     </div>
@@ -430,7 +430,7 @@ const Content = () => {
                             </ul>
                             <div style={{ marginTop: '25px', fontStyle: 'bold', fontSize: '25px' }}><strong>Price: 50$</strong></div>
                             <div style={{ display: "flex", flexDirection: 'row' }}>
-                                <div className="submit-container"><div className="submit"><a href="#/cypress-pro-payment" style={{ color: 'white' }}>Enroll Now</a></div></div>
+                                <div className="submit-container"><div className="submit"><a href="#/stcp" style={{ color: 'white' }}>Enroll Now</a></div></div>
                             </div>
 
                         </div>
@@ -444,39 +444,36 @@ const Content = () => {
                     <div class="testimonials-container">
                         <div class="testimonial-card">
                             <p class="testimonial-text">
-                                "This product has completely changed the way I do business. It’s efficient, easy to use, and the support is outstanding!"
+                                "I chose the Software Testing Java Pro course and was pleasantly surprised by the mentor's approach to situations I thought were too challenging for me. I successfully completed the course, and can recommend this academy."
                             </p>
                             <div class="testimonial-author">
                                 <img src={client_1} alt="Client 1" class="author-image" />
                                 <div class="author-info">
-                                    <h4 class="author-name">Jane Doe</h4>
-                                    <p class="author-role">CEO, Tech Company</p>
+                                    <h4 class="author-name">Jane Walters</h4>
                                 </div>
                             </div>
                         </div>
 
                         <div class="testimonial-card">
                             <p class="testimonial-text">
-                                "Amazing service and a great experience overall. Highly recommend to anyone looking for reliable software solutions."
+                                "The Software Testing (Cypress) Pro course is fantastic! It covers everything from JavaScript and TypeScript basics to advanced Cypress testing, API Testing, SQL, and manual testing. The mentorship, CV assistance, and interview readiness sessions were incredibly helpful. The hands-on approach and personalized learning plan made the experience engaging and practical. Highly recommend it for anyone looking to excel in software testing!"
                             </p>
                             <div class="testimonial-author">
                                 <img src={client_2} alt="Client 2" class="author-image" />
                                 <div class="author-info">
-                                    <h4 class="author-name">John Smith</h4>
-                                    <p class="author-role">Marketing Director, Creative Agency</p>
+                                    <h4 class="author-name">Robert Smith</h4>
                                 </div>
                             </div>
                         </div>
 
                         <div class="testimonial-card">
                             <p class="testimonial-text">
-                                "Their expertise and professionalism are truly exceptional. The best decision we made was partnering with them."
+                                "The Manual Testing Pro course is excellent! The individual learning plan ensured a personalized and practical learning experience. Highly recommend it for anyone pursuing a career in manual testing!"
                             </p>
                             <div class="testimonial-author">
                                 <img src={client_3} alt="Client 3" class="author-image" />
                                 <div class="author-info">
-                                    <h4 class="author-name">Sarah Johnson</h4>
-                                    <p class="author-role">Founder, Startup Co.</p>
+                                    <h4 class="author-name">Michael Tucker</h4>
                                 </div>
                             </div>
                         </div>

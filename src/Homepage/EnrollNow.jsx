@@ -31,7 +31,7 @@ const EnrollNow = () => {
                             </ul>
                             <div style={{ marginTop: '25px', fontStyle: 'bold', fontSize: '25px' }}><strong>Price: 499$</strong></div>
                             <div style={{ display: "flex", flexDirection: 'row' }}>
-                                <div className="submit-container"><div className="submit"><a href="#/manual-testing-payment" style={{ color: 'white' }}>Enroll Now</a></div></div>
+                                <div className="submit-container"><div className="submit"><a href="#/mtpp" style={{ color: 'white' }}>Enroll Now</a></div></div>
                             </div>
                         </div>
                     </div>
@@ -59,7 +59,7 @@ const EnrollNow = () => {
                             </ul>
                             <div style={{ marginTop: '25px', fontStyle: 'bold', fontSize: '25px' }}><strong>Price: 999$</strong></div>
                             <div style={{ display: "flex", flexDirection: 'row' }}>
-                                <div className="submit-container"><div className="submit"><a href="#/software-testing-payment" style={{ color: 'white' }}>Enroll Now</a></div></div>
+                                <div className="submit-container"><div className="submit"><a href="#/stjpp" style={{ color: 'white' }}>Enroll Now</a></div></div>
                             </div>
                         </div>
                     </div>
@@ -86,7 +86,7 @@ const EnrollNow = () => {
                             </ul>
                             <div style={{ marginTop: '25px', fontStyle: 'bold', fontSize: '25px' }}><strong>Price: 999$</strong></div>
                             <div style={{ display: "flex", flexDirection: 'row' }}>
-                                <div className="submit-container"><div className="submit"><a href="#/cypress-pro-payment" style={{ color: 'white' }}>Enroll Now</a></div></div>
+                                <div className="submit-container"><div className="submit"><a href="#/stcpp" style={{ color: 'white' }}>Enroll Now</a></div></div>
                             </div>
 
                         </div>
@@ -107,7 +107,7 @@ const EnrollNow = () => {
                             </ul>
                             <div style={{ marginTop: '25px', fontStyle: 'bold', fontSize: '25px' }}><strong>Price: 50$</strong></div>
                             <div style={{ display: "flex", flexDirection: 'row' }}>
-                                <div className="submit-container"><div className="submit"><a href="#/manual-testing-payment" style={{ color: 'white' }}>Enroll Now</a></div></div>
+                                <div className="submit-container"><div className="submit"><a href="#/mtp" style={{ color: 'white' }}>Enroll Now</a></div></div>
                             </div>
                         </div>
                     </div>
@@ -127,7 +127,7 @@ const EnrollNow = () => {
                             </ul>
                             <div style={{ marginTop: '25px', fontStyle: 'bold', fontSize: '25px' }}><strong>Price: 50$</strong></div>
                             <div style={{ display: "flex", flexDirection: 'row' }}>
-                                <div className="submit-container"><div className="submit"><a href="#/software-testing-payment" style={{ color: 'white' }}>Enroll Now</a></div></div>
+                                <div className="submit-container"><div className="submit"><a href="#/stjp" style={{ color: 'white' }}>Enroll Now</a></div></div>
                             </div>
                         </div>
                     </div>
@@ -149,7 +149,7 @@ const EnrollNow = () => {
                             </ul>
                             <div style={{ marginTop: '25px', fontStyle: 'bold', fontSize: '25px' }}><strong>Price: 50$</strong></div>
                             <div style={{ display: "flex", flexDirection: 'row' }}>
-                                <div className="submit-container"><div className="submit"><a href="#/cypress-pro-payment" style={{ color: 'white' }}>Enroll Now</a></div></div>
+                                <div className="submit-container"><div className="submit"><a href="#/stcp" style={{ color: 'white' }}>Enroll Now</a></div></div>
                             </div>
 
                         </div>

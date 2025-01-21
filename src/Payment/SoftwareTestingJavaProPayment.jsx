@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import Header from '../Homepage/Header'
 import Footer from '../Footer/Footer'
 import { useNavigate } from "react-router-dom";
-const SoftwareTestingPayment = () => {
+import mastercard_logo from '../Homepage/Assets/mastercard.svg'
+import visa_logo from '../Homepage/Assets/visa.svg'
+const SoftwareTestingJavaProPayment = () => {
     const [formData, setFormData] = useState({
         cardNumber: '',
         fullName: '',
@@ -52,8 +54,13 @@ const SoftwareTestingPayment = () => {
             <Header />
             <div>
                 <div className="header">
-                    <div className="text">Enroll To Software Testing Course</div>
+                    <div className="text">Enroll To Software Testing(Java) Pro Course</div>
                     <div className="underline"></div>
+                    <div style={{display:"flex", flexDirection:"row", gap:"10px"}}>
+                        <p>We accept: </p>
+                        <img src={mastercard_logo} alt="" />
+                        <img src={visa_logo} alt="" />
+                    </div>
                 </div>
                 <div className="inputs">
                     <div className="input">
@@ -62,7 +69,7 @@ const SoftwareTestingPayment = () => {
                             name="course"
                             style={{ paddingLeft: '10px' }}
                             readOnly
-                            value="SoftwareTesting" // Display the course name
+                            value="Software Testing(Java) Pro"
                         />
                     </div>
                     <div className="input">
@@ -103,4 +110,4 @@ const SoftwareTestingPayment = () => {
         </div>
     )
 }
-export default SoftwareTestingPayment
+export default SoftwareTestingJavaProPayment

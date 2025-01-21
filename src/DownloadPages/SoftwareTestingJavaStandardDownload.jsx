@@ -1,10 +1,9 @@
 import React from "react";
-import './DownloadPages.css'
 import Footer from "../Footer/Footer";
 import Header from "../Homepage/Header";
+import './DownloadPages.css'
 import download_icon from './Assets/download-icon.png'
-const ManualTestingProDownload = () => {
-
+const SoftwareTestingJavaStandardDownload = () => {
     const windows_download_link = "https://raw.githubusercontent.com/6432633/course-download-testing/refs/heads/main/Sql.pdf";
     const mac_download_users = "https://raw.githubusercontent.com/6432633/course-download-testing/refs/heads/main/Sql.pdf"
     return (
@@ -24,4 +23,4 @@ const ManualTestingProDownload = () => {
         </div>
     )
 }
-export default ManualTestingProDownload
+export default SoftwareTestingJavaStandardDownload
